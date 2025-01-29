@@ -16,6 +16,8 @@ int main(void)
         exit(1);
     }
 
+    int old_stdout = dup(1);
+
     int pfd = dup2(fd, 1);
     if (pfd == -1){
         perror("dup2");
@@ -25,5 +27,9 @@ int main(void)
 
     printf("Hello, world\nThis is a test!\n");
     fflush(stdout);
+    
     close(fd);
+    dup2(old_stdout, 1);
+
+    printf("All done!\n");
 }
