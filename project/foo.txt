@@ -1,0 +1,9 @@
+total 168
+drwxr-xr-x  8 ppunch  staff    256 Feb  5  2025 .
+drwxr-xr-x  6 ppunch  staff    192 Feb  5  2025 ..
+-rw-r--r--  1 ppunch  staff    185 Feb  5 09:14 Makefile
+-rw-r--r--@ 1 ppunch  staff      0 Feb  5 09:34 foo.txt
+-rwxr-xr-x  1 ppunch  staff  33848 Feb  5 09:32 lswc
+-rw-r--r--  1 ppunch  staff    943 Feb  5 09:28 lswc.c
+-rwxr-xr-x  1 ppunch  staff  33688 Feb  5 09:32 redirout
+-rw-r--r--@ 1 ppunch  staff    622 Feb  5 09:33 redirout.c
